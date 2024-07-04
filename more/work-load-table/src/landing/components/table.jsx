@@ -21,7 +21,7 @@ export function WorkLoadTable() {
   useEffect(() => {
     kf.context.watchParams((data) => {
       if (data.sprintId) {
-        console.log("sprint id by venkadesh", data.sprintId);
+        console.log("sprint id", data.sprintId);
         setSprintId(data.sprintId);
       }
     });
